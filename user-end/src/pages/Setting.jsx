@@ -3,7 +3,7 @@ import Button from "../components/buttons/Button"
 const Setting = () => {
     const goToAdminLoginPage = ()=>{
         let adminUrl = import.meta.env.VITE_ADMIN_URL;
-        window.open(adminUrl + "/login",'_blank')
+        window.open(adminUrl + "login",'_blank')
     }
     return (
         <div className="h-screen  ml-72">
