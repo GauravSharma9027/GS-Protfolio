@@ -1,11 +1,10 @@
 import { Github, Linkedin } from "lucide-react"
 import { Link } from "react-router-dom"
-import ProjectCard from "../components/cards/projectCard"
+import ProjectCard from "../components/cards/ProjectCard"
 import Footer from "../components/Footer"
 import ServicesCard from "../components/cards/ServicesCard"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import axios from "axios"
-import { useState } from "react"
 
 const Experience = () => {
   const url = import.meta.env.VITE_API_URL;
