@@ -1,0 +1,31 @@
+{
+  "name": "back-end",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+    
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dos2unix": "^1.1.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "mongoose-timestamps": "^0.0.1",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "uuid": "^11.0.3",
+    "validator": "^13.12.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

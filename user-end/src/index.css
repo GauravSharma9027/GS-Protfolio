@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .mask-half-ring {
+    mask-image: linear-gradient(to bottom, black 50%, transparent 50%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 50%);
+  }
+}
